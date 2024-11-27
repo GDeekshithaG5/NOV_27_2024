@@ -1,0 +1,19 @@
+from OOPS_CONCEPTS.class_object_demo1 import arithimetic_op
+obj=arithimetic_op()
+r1=obj.sum(10,20)
+print("sum of two numbers:",r1)
+
+r2=obj.mul(10,12)
+print("mul of two numbers:",r2)
+
+r3=obj.mod(10,20)
+print("mod of two numbers:",r3)
+
+r4=obj.div(10,20)
+print("div of two numbers:",r4)
+
+r5=obj.fact(3)
+print("fact of numbers:",r5)
+
+r6=obj.even([2,5,8,10,12])
+print("Even numbers:",r6)
