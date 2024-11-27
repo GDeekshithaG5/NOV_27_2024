@@ -1,0 +1,26 @@
+class arithimetic_op:
+    def sum(self,a,b):
+        return a+b
+
+    def mul(self,x,y):
+        return x*y
+
+    def sub(self,p,q):
+        return p-q
+
+    def mod(self,b,c):
+        return b%c
+
+    def div(self,n,m):
+        return n/m
+
+    def fact(self,n):
+        fact=1
+        for i in range(1,n+1):
+            fact*=i
+        return fact
+
+    def even(self, list):
+        for i in list:
+            if (i%2==0):
+                print(i, end=" ")
